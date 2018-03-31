@@ -8,7 +8,7 @@ if smtpObj.login(gml,ps):
  mess = input("message:")
  smtpObj.sendmail(gml,jar,mess)
  i = 1
- while i <= 5:
+ while i <= 999999:
   if smtpObj.sendmail(gml,jar,mess):
    print('message send - [ERROR]')
   else:
