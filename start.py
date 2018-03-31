@@ -10,9 +10,9 @@ if smtpObj.login(gml,ps):
  i = 1
  while i <= 5:
   if smtpObj.sendmail(gml,jar,mess):
-   print('message send - [ERROR]','red')
+   print('message send - [ERROR]')
   else:
-   print('message send - [OK]','green')
+   print('message send - [OK]')
  i = i + 1
 else:
  print("no valid password")
