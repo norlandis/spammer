@@ -8,7 +8,6 @@ mess = input("message:")
 smtpObj.sendmail(gml,jar,mess)
 i = 1
 while i <= 999999:
- smtpObj.sendmail(gml,jar,mess):
- print('message send - [ERROR]')
- print('message send - [OK]')
+ smtpObj.sendmail(gml,jar,mess)
+ print('message send - [OK] user - ',jar,'message',mess)
 i = i + 1
